@@ -1,4 +1,4 @@
-/* https://leetcode.com/problems/longest-palindrome/description/ */
+package string;/* https://leetcode.com/problems/longest-palindrome/description/ */
 
 import java.util.*;
 

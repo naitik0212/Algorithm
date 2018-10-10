@@ -1,4 +1,4 @@
-/* https://www.journaldev.com/526/java-program-to-find-all-permutations-of-a-string */
+package string;/* https://www.journaldev.com/526/java-program-to-find-all-permutations-of-a-string */
 import java.util.HashSet;
 import java.util.Set;
 

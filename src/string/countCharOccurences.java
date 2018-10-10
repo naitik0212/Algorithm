@@ -1,4 +1,4 @@
-/*count the number of occurrences of each character in a string?*/
+package string;/*count the number of occurrences of each character in a string?*/
 
 import java.util.HashMap;
 
