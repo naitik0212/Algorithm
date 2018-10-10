@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db17e8d8-36c3-4a5b-b7d8-d0ddded32db6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/string/anagram.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/string/reverseStringPreservingSpaces.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -71,16 +71,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LongestPalindromeLength.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/string/LongestPalindromeLength.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="countCharOccurences.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/string/countCharOccurences.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -111,11 +101,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="anagram.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="anagram.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/string/anagram.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
               <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reverseStringPreservingSpaces.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/string/reverseStringPreservingSpaces.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="327">
+              <caret line="35" column="17" lean-forward="true" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -153,6 +153,7 @@
         <option value="$PROJECT_DIR$/src/string/DuplicateChar.java" />
         <option value="$PROJECT_DIR$/src/string/reverseString.java" />
         <option value="$PROJECT_DIR$/src/string/anagram.java" />
+        <option value="$PROJECT_DIR$/src/string/reverseStringPreservingSpaces.java" />
       </list>
     </option>
   </component>
@@ -236,7 +237,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.anagram">
+  <component name="RunManager" selected="Application.reverseStringPreservingSpaces">
     <configuration name="DuplicateChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -356,20 +357,6 @@
       <module name="Algo" />
       <envs />
     </configuration>
-    <configuration name="permutationString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="string.permutationString" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Algo" />
-      <envs />
-    </configuration>
     <configuration name="removeWhiteSpaces" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -408,20 +395,39 @@
       <module name="Algo" />
       <envs />
     </configuration>
+    <configuration name="reverseStringPreservingSpaces" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="string.reverseStringPreservingSpaces" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Algo" />
+      <envs />
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.permutationString" />
-      <item index="1" class="java.lang.String" itemvalue="Application.removeWhiteSpaces" />
-      <item index="2" class="java.lang.String" itemvalue="Application.DuplicateChar" />
-      <item index="3" class="java.lang.String" itemvalue="Application.reverseString" />
-      <item index="4" class="java.lang.String" itemvalue="Application.anagram" />
+      <item index="0" class="java.lang.String" itemvalue="Application.removeWhiteSpaces" />
+      <item index="1" class="java.lang.String" itemvalue="Application.DuplicateChar" />
+      <item index="2" class="java.lang.String" itemvalue="Application.reverseString" />
+      <item index="3" class="java.lang.String" itemvalue="Application.anagram" />
+      <item index="4" class="java.lang.String" itemvalue="Application.reverseStringPreservingSpaces" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.anagram" />
-        <item index="1" class="java.lang.String" itemvalue="Application.reverseString" />
-        <item index="2" class="java.lang.String" itemvalue="Application.DuplicateChar" />
-        <item index="3" class="java.lang.String" itemvalue="Application.removeWhiteSpaces" />
-        <item index="4" class="java.lang.String" itemvalue="Application.permutationString" />
+        <item index="0" class="java.lang.String" itemvalue="Application.reverseStringPreservingSpaces" />
+        <item index="1" class="java.lang.String" itemvalue="Application.anagram" />
+        <item index="2" class="java.lang.String" itemvalue="Application.reverseString" />
+        <item index="3" class="java.lang.String" itemvalue="Application.DuplicateChar" />
+        <item index="4" class="java.lang.String" itemvalue="Application.removeWhiteSpaces" />
       </list>
     </recent_temporary>
   </component>
@@ -437,12 +443,12 @@
       <updated>1534885251784</updated>
       <workItem from="1534885254832" duration="1186000" />
       <workItem from="1537569700599" duration="3000000" />
-      <workItem from="1539109627961" duration="8418000" />
+      <workItem from="1539109627961" duration="9085000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12604000" />
+    <option name="totallyTimeSpent" value="13271000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -637,10 +643,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/string/countCharOccurences.java">
+    <entry file="file://$PROJECT_DIR$/src/string/anagram.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="11" selection-end-column="5" />
+        <state relative-caret-position="450">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -653,10 +659,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/string/anagram.java">
+    <entry file="file://$PROJECT_DIR$/src/string/countCharOccurences.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state relative-caret-position="75">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="11" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/string/reverseStringPreservingSpaces.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="35" column="17" lean-forward="true" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
           <folding />
         </state>
       </provider>
