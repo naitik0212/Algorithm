@@ -25,3 +25,7 @@ public class assignArray {
 
     }
 
+// Using for loop
+//         Using Arrays.copyOf() method
+//         Using System.arraycopy() method
+//         Using clone() method

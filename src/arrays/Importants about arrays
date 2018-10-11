@@ -1,0 +1,10 @@
+In general reading from array is Thread-Safe Operation but modifying an array its not.
+
+Array is created in heap space of JVM memory. Since array is object in Java.
+
+You can use Arrays.equals() method to compare one dimensional arrays and to compare multidimensional arrays, use Arrays.deepEquals() method.
+
+Access	 Θ(1)	 This means very fast because we read from each index
+Search	 Θ(n)	'n' represents no. of elements in array. And it means search operation is  slow as we need to iterate all elements in array to search for one specific element
+Insertion	 Θ(n)	 same as above.
+Deletion	 Θ(n)	 same as above.
