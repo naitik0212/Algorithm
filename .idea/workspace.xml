@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db17e8d8-36c3-4a5b-b7d8-d0ddded32db6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Algo/arrays/elementFreqinArray.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Algo/arrays/intersectionArray.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Algo/arrays/largestSmallestInArray.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/arrays/elementFreqinArray.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/arrays/intersectionArray.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/arrays/largestSmallestInArray.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algo/importants/CountStairs.class" afterPath="$PROJECT_DIR$/out/production/Algo/importants/CountStairs.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/arrays/findSmallestElementNotInArray.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -75,14 +69,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="elementFreqinArray.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="elementFreqinArray.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/arrays/elementFreqinArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="105">
+              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="findSmallestElementNotInArray.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/arrays/findSmallestElementNotInArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="7" column="38" lean-forward="false" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -135,6 +139,7 @@
         <option value="$PROJECT_DIR$/src/arrays/intersectionArray.java" />
         <option value="$PROJECT_DIR$/src/arrays/largestSmallestInArray.java" />
         <option value="$PROJECT_DIR$/src/arrays/elementFreqinArray.java" />
+        <option value="$PROJECT_DIR$/src/arrays/findSmallestElementNotInArray.java" />
       </list>
     </option>
   </component>
@@ -231,7 +236,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.elementFreqinArray">
+  <component name="RunManager" selected="Application.findSmallestElementNotInArray">
     <configuration name="CountStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -351,14 +356,14 @@
       <module name="Algo" />
       <envs />
     </configuration>
-    <configuration name="fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="findSmallestElementNotInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="importants.*" />
+          <option name="PATTERN" value="arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="importants.fibonacci" />
+      <option name="MAIN_CLASS_NAME" value="arrays.findSmallestElementNotInArray" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -409,19 +414,19 @@
       <envs />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.fibonacci" />
-      <item index="1" class="java.lang.String" itemvalue="Application.CountStairs" />
-      <item index="2" class="java.lang.String" itemvalue="Application.intersectionArray" />
-      <item index="3" class="java.lang.String" itemvalue="Application.largestSmallestInArray" />
-      <item index="4" class="java.lang.String" itemvalue="Application.elementFreqinArray" />
+      <item index="0" class="java.lang.String" itemvalue="Application.CountStairs" />
+      <item index="1" class="java.lang.String" itemvalue="Application.intersectionArray" />
+      <item index="2" class="java.lang.String" itemvalue="Application.largestSmallestInArray" />
+      <item index="3" class="java.lang.String" itemvalue="Application.elementFreqinArray" />
+      <item index="4" class="java.lang.String" itemvalue="Application.findSmallestElementNotInArray" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.elementFreqinArray" />
-        <item index="1" class="java.lang.String" itemvalue="Application.largestSmallestInArray" />
-        <item index="2" class="java.lang.String" itemvalue="Application.intersectionArray" />
-        <item index="3" class="java.lang.String" itemvalue="Application.CountStairs" />
-        <item index="4" class="java.lang.String" itemvalue="Application.fibonacci" />
+        <item index="0" class="java.lang.String" itemvalue="Application.findSmallestElementNotInArray" />
+        <item index="1" class="java.lang.String" itemvalue="Application.elementFreqinArray" />
+        <item index="2" class="java.lang.String" itemvalue="Application.largestSmallestInArray" />
+        <item index="3" class="java.lang.String" itemvalue="Application.intersectionArray" />
+        <item index="4" class="java.lang.String" itemvalue="Application.CountStairs" />
       </list>
     </recent_temporary>
   </component>
@@ -439,15 +444,16 @@
       <workItem from="1537569700599" duration="3000000" />
       <workItem from="1539109627961" duration="17153000" />
       <workItem from="1539327237208" duration="292000" />
-      <workItem from="1539472349081" duration="4715000" />
+      <workItem from="1539472349081" duration="5931000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26346000" />
+    <option name="totallyTimeSpent" value="27562000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="824" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -458,8 +464,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286119" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28895184" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3286119" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28895184" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2639485" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -520,14 +526,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/arrays/selectionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/arrays/HeapSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -930,11 +928,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/arrays/elementFreqinArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="105">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arrays/findSmallestElementNotInArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="7" column="38" lean-forward="false" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
