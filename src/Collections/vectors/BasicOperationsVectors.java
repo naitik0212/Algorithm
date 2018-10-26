@@ -2,7 +2,7 @@ package Collections.vectors;
 
 import java.util.Vector;
 
-public class basicOperations {
+public class BasicOperationsVectors {
 
     public static void main(String a[]){
         Vector<Integer> vector = new Vector<>();
