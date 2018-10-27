@@ -49,11 +49,13 @@ public class BasicOperationsArrayList {
         System.out.println(a);
 
         Collections.swap(a, 2, 3);
-        System.out.println("swapped ArrayList: ");
+        System.out.println("Swap ArrayList: ");
         System.out.println(a);
 
 
         copy.clear();
         System.out.println("After clear ArrayList:" + copy);
+
+
     }
 }
