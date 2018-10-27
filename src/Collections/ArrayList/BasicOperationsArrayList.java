@@ -1,6 +1,9 @@
 package Collections.ArrayList;
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.List;
 
 public class BasicOperationsArrayList {
     public static void main(String args[]) {
@@ -25,5 +28,34 @@ public class BasicOperationsArrayList {
 
         ArrayList<String> copy = (ArrayList<String>) a.clone();
         System.out.println("Cloned ArrayList: "+copy);
+
+        List<String> list = a.subList(2, 4);
+        System.out.println("Sub List: "+list);
+
+        System.out.println("Does ArrayList contains all list elements?: "
+                +a.containsAll(list));
+
+        System.out.println("Sorted ArrayList: ");
+        Collections.sort(a);
+        System.out.println(a);
+
+        Collections.reverse(a);
+        System.out.println("Reversed ArrayList: ");
+        System.out.println(a);
+
+
+        Collections.shuffle(a);
+        System.out.println("Shuffled ArrayList: ");
+        System.out.println(a);
+
+        Collections.swap(a, 2, 3);
+        System.out.println("swapped ArrayList: ");
+        System.out.println(a);
+
+
+        copy.clear();
+        System.out.println("After clear ArrayList:" + copy);
+
+
     }
 }
