@@ -55,7 +55,5 @@ public class BasicOperationsArrayList {
 
         copy.clear();
         System.out.println("After clear ArrayList:" + copy);
-
-
     }
 }
