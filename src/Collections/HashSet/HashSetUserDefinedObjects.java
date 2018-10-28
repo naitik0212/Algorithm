@@ -13,7 +13,7 @@ public class HashSetUserDefinedObjects {
         lhm.add(new gifts("Priya", 5));
         lhm.add(new gifts("Hiral", 5));
         lhm.add(new gifts("Dharmil", 5));
-        lhm.add(new gifts("Sidharth", 5));
+        lhm.add(new gifts("Sidharth", 4));
         lhm.add(new gifts("Smruti", 10));
         lhm.add(new gifts("Kevin", 5));
         lhm.add(new gifts("Viken", 5));
@@ -58,7 +58,7 @@ class gifts {
 
     public String computeCost(int relationProximity) {
         if(relationProximity> 5){
-            return "any amount.";
+            return "any amount";
         }
        return Integer.toString(relationProximity * 3) + "$s";
     }
@@ -79,9 +79,4 @@ class gifts {
     public String toString(){
         return "Gift for: "+ giftPersonName  + " can be of " + computeCost(this.relationProximity);
     }
-
-
-
-
-
 }
