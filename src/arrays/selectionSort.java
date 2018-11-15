@@ -18,10 +18,10 @@ public class selectionSort {
                 int temp = input[min_index];
                 input[min_index] = input[i];
                 input[i] = temp;
-                }
             }
-            for (int i=0; i < n; ++i)
-                System.out.println(input[i]);
         }
+        for (int i=0; i < n; ++i)
+            System.out.println(input[i]);
     }
+}
 
