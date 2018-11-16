@@ -20,8 +20,7 @@ public class selectionSort {
                 input[i] = temp;
             }
         }
-        for (int i=0; i < n; ++i)
-            System.out.println(input[i]);
+        for (int anInput : input) System.out.println(anInput);
     }
 }
 

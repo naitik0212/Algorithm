@@ -11,7 +11,7 @@ public class findSmallestElementNotInArray {
 
     }
 
-    public static int smallestPostiveElementNotInArray(int[] a) {
+    private static int smallestPostiveElementNotInArray(int[] a) {
         if(a.length == 0){
             return 1;
         }
