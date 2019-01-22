@@ -1,6 +1,7 @@
 package string;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 
 public class ZeroMatrix {
 
@@ -38,8 +39,8 @@ public class ZeroMatrix {
             if (m.length == 0 || m.length != m[0].length)
                 return false;
 
-            ArrayList<Integer> row = new ArrayList<>();
-            ArrayList<Integer> column = new ArrayList<>();
+            HashSet<Integer> row = new HashSet<>();
+            HashSet<Integer> column = new HashSet<>();
 
 
             for (int i = 0; i < m.length; i++) {
