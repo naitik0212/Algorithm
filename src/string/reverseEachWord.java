@@ -7,10 +7,10 @@ public class reverseEachWord {
         StringBuilder output = new StringBuilder();
 
         char[] a = s.toCharArray();
-        for(int i = 0; i<a.length;i++){
-            if(a[i] != ' '){
-                sb1.append(a[i]);
-            }else{
+        for (char anA : a) {
+            if (anA != ' ') {
+                sb1.append(anA);
+            } else {
                 output.append(sb1.reverse().toString());
                 sb1.setLength(0);
                 output.append(" ");

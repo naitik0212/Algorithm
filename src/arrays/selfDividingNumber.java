@@ -13,7 +13,7 @@ public class selfDividingNumber {
                 return ans;
             }
 
-    public static boolean selfDividing(int n) {
+    private static boolean selfDividing(int n) {
         int x = n;
         while (x > 0) {
             int d = x % 10;

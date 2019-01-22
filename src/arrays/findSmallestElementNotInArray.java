@@ -5,13 +5,17 @@ import java.util.HashSet;
 
 public class findSmallestElementNotInArray {
     public static void main(String args[]){
-        int a[] = {-1, 1, -3, 2, 4, 3, 5};
+        int a[] = {3,2,1};
         int ans = smallestPostiveElementNotInArray(a);
         System.out.println(ans);
 
     }
 
     private static int smallestPostiveElementNotInArray(int[] a) {
+        if(a.length == 0){
+            return 1;
+        }
+
         HashSet<Integer> set = new HashSet<>();
         for(int i: a){
             set.add(i);
@@ -24,7 +28,7 @@ public class findSmallestElementNotInArray {
                 j++;
             }
         }
-        return a[a.length-1]+1;
+        return a.length+1;
         }
 }
 

@@ -10,8 +10,8 @@ public class uniqueCharString {
         String s1 = "abcdef";
         String s2 = "abcads";
 
-        System.out.println(isUnique(s1));
-        System.out.println(isUnique(s2));
+        System.out.println(isUniqueCharacter(s1));
+        System.out.println(isUniqueCharacter(s2));
 
 
     }
@@ -32,6 +32,24 @@ public class uniqueCharString {
 
     private static boolean isUniqueChar(String s) {
 //        https://stackoverflow.com/questions/9141830/explain-the-use-of-a-bit-vector-for-determining-if-all-characters-are-unique
+        return true;
+    }
+
+    private static boolean isUniqueCharacter(String s) {
+        if(s.length()> 128) {
+            return false;
+        }
+
+        boolean charSet[] =  new boolean[128];
+
+        for(int i = 0; i < s.length(); i++) {
+            int value = s.charAt(i);
+            if(charSet[value]){
+                return false;
+            }
+            charSet[value] = true;
+        }
+
         return true;
     }
 }

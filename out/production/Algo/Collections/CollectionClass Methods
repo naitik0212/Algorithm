@@ -1,0 +1,75 @@
+Collections.addAll() method adds all of the specified elements to the specified collection.
+Elements to be added may be specified individually or as an array.
+The behavior of this convenience method is identical to that of c.addAll(Arrays.asList(elements)),
+but this method is likely to run significantly faster under most implementations.
+
+The Collections.asLifoQueue() method returns a view of a Deque as a Last-in-first-out (Lifo) Queue.
+Method add is mapped to push, remove is mapped to pop and so on.
+This view can be useful when you would like to use a method requiring a Queue but you need Lifo ordering.
+
+The Collections.binarySearch() method searches the specified list for the specified user defined object using the binary search algorithm.
+The list must be sorted into ascending order according to the specified comparator (as by the sort(List, Comparator) method), prior to making this call.
+If it is not sorted, the results are undefined.
+If the list contains multiple elements equal to the specified object, there is no guarantee which one will be found.
+
+Collections.checkedCollection() method returns a dynamically typesafe view of the specified collection.
+Any attempt to insert an element of the wrong type will result in an immediate ClassCastException.
+Assuming a collection contains no incorrectly typed elements prior to the time a dynamically typesafe view is generated,
+and that all subsequent access to the collection takes place through the view,
+it is guaranteed that the collection cannot contain an incorrectly typed element.
+
+Collections.checkedList() method returns a dynamically typesafe view of the specified list.
+Any attempt to insert an element of the wrong type will result in an immediate ClassCastException.
+Assuming a list contains no incorrectly typed elements prior to the time a dynamically typesafe view is generated,
+and that all subsequent access to the list takes place through the view,
+it is guaranteed that the list cannot contain an incorrectly typed element.
+
+Collections.checkedSet() method returns a dynamically typesafe view of the specified set.
+Any attempt to insert an element of the wrong type will result in an immediate ClassCastException.
+Assuming a set contains no incorrectly typed elements prior to the time a dynamically typesafe view is generated,
+and that all subsequent access to the set takes place through the view, it is guaranteed that the set cannot contain an incorrectly typed element.
+
+Collections.checkedMap() method returns a dynamically typesafe view of the specified map.
+Any attempt to insert a mapping whose key or value have the wrong type will result in an immediate ClassCastException.
+Similarly, any attempt to modify the value currently associated with a key will result in an immediate ClassCastException,
+whether the modification is attempted directly through the map itself, or through a Map.Entry instance obtained from the map's entry set view.
+
+Collections.disjoint() method returns true if the two specified collections have no elements in common.
+Care must be exercised if this method is used on collections that do not comply with the general contract for Collection.
+Implementations may elect to iterate over either collection and test for containment in the other collection (or to perform any equivalent computation).
+If either collection uses a nonstandard equality test (as does a SortedSet whose ordering is not compatible with equals, or the key set of an IdentityHashMap),
+both collections must use the same nonstandard equality test, or the result of this method is undefined.
+
+Collections.emptyList() method returns the empty list (immutable). This list is serializable.
+
+Collections.emptySet() method returns the empty set (immutable). This set is serializable.
+Set<String> myEmptySet = Collections.<String>emptySet();
+        System.out.println("Empty set: "+myEmptySet);
+
+Collections.emptyMap() method returns the empty map (immutable). This map is serializable.
+
+
+
+Collections.frequency() method returns the number of elements in the specified collection equal to the specified object.
+
+
+Collections.indexOfSubList() method returns the starting position of the first occurrence of the specified target list within the specified source list,
+or -1 if there is no such occurrence.
++Collections.lastIndexOfFirstList(list, subList));
+Collections.lastIndexOfSubList(list, subList));
+
+Collections.max() / min() method returns the maximum/minimum element of the given collection,
+according to the natural ordering of its elements.
+
+Collections.nCopies() method returns an immutable list consisting of n copies of the specified object.
+The newly allocated data object is tiny (it contains a single reference to the data object).
+ This method is useful in combination with the List.addAll method to grow lists.
+The returned list is serializable. Below example shows how to create multiple copies of a user defined object.
+
+Replace all elements: Collections.replaceAll(list, "perl", "dum_dum");
+Rotate: Collections.rotate(list, 3)
+
+Synchronized:
+The ArrayList is not synchornized (not thread-safe). Collections.synchronizedList() method helps to get thread safe list. Collections.synchronizedList() method Returns a synchronized (thread-safe) list backed by the specified list. In order to guarantee serial access,
+it is critical that all access to the backing list is accomplished through the returned list.
+List<String> sysLi = Collections.synchronizedList(li);

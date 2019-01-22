@@ -1,5 +1,7 @@
 package string;
 
+//ctci check permutations.
+
 public class anagram {
     private static boolean isAnagram(String s, String t) {
         s = s.toLowerCase();

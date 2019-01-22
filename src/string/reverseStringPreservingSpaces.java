@@ -20,21 +20,18 @@ public class reverseStringPreservingSpaces {
         }
             int j = resultArray.length-1;
 
-            for (int i = 0; i < a.length; i++)
-            {
-                if (a[i] != ' ')
-                {
+        for (char anA : a) {
+            if (anA != ' ') {
 
-                    if(resultArray[j] == ' ')
-                    {
-                        j--;
-                    }
-
-                    resultArray[j] = a[i];
-
+                if (resultArray[j] == ' ') {
                     j--;
                 }
+
+                resultArray[j] = anA;
+
+                j--;
             }
+        }
 
             System.out.println(s + " reverses to-->  "+String.valueOf(resultArray));
         }
