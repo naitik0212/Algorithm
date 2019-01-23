@@ -65,7 +65,7 @@ public class palindrome_LinkedList {
         return true;
     }
 
-    public static node reverse( node head) {
+    private static node reverse( node head) {
         node newHead = null;
         while(head != null) {
             node newNode = head.next;
