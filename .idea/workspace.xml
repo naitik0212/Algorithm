@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="db17e8d8-36c3-4a5b-b7d8-d0ddded32db6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/stack/AnimalShelter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/stack/sortStack.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo/stack/QueueUsingStacks$Queue.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algo/stack/QueueUsingStacks.class" afterPath="$PROJECT_DIR$/out/production/Algo/stack/QueueUsingStacks.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="db17e8d8-36c3-4a5b-b7d8-d0ddded32db6" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,6 +17,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="reverseStringPreservingSpaces.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/string/reverseStringPreservingSpaces.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="2" column="44" lean-forward="false" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="palindrome_LinkedList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Collections/LinkedList/palindrome_LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -103,11 +107,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AnimalShelter.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AnimalShelter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/stack/AnimalShelter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-98">
-              <caret line="31" column="9" lean-forward="false" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+            <state relative-caret-position="941">
+              <caret line="79" column="17" lean-forward="true" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="17" />
               <folding>
                 <element signature="e#668#669#0" expanded="true" />
                 <element signature="e#700#701#0" expanded="true" />
@@ -124,35 +128,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="intersectLinkedList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Collections/LinkedList/intersectLinkedList.java">
+      <file leaf-file-name="bubbleSort.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/arrays/bubbleSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="50" column="9" lean-forward="true" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#213#214#0" expanded="true" />
-                <element signature="e#251#252#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wayfair.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/wayfair.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="23" />
+            <state relative-caret-position="-76">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fibonacci.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/arrays/fibonacci.java">
+      <file leaf-file-name="duplicateNumbers.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/arrays/duplicateNumbers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="34" column="5" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="34" selection-end-column="5" />
+            <state relative-caret-position="330">
+              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -285,19 +275,6 @@
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="stack" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="stack" type="462c0819:PsiDirectoryNode" />
-              <item name="AnimalShelter.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
@@ -570,12 +547,12 @@
       <workItem from="1544700856070" duration="954000" />
       <workItem from="1548089499003" duration="9174000" />
       <workItem from="1548120968665" duration="7671000" />
-      <workItem from="1548176747682" duration="17927000" />
+      <workItem from="1548176747682" duration="18404000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140729000" />
+    <option name="totallyTimeSpent" value="141206000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -599,10 +576,10 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25248757" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25248757" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23819743" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23819743" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -669,13 +646,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Collections/CollectionEnumerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Collections/Vectors/BasicOperationsVectors.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -864,14 +834,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/string/reverseStringPreservingSpaces.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="2" column="44" lean-forward="false" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/string/StringCompress.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -903,14 +865,6 @@
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrays/duplicateNumbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1086,8 +1040,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/stack/AnimalShelter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-98">
-          <caret line="31" column="9" lean-forward="false" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+        <state relative-caret-position="941">
+          <caret line="79" column="17" lean-forward="true" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="17" />
           <folding>
             <element signature="e#668#669#0" expanded="true" />
             <element signature="e#700#701#0" expanded="true" />
@@ -1100,6 +1054,30 @@
             <element signature="e#1576#1577#0" expanded="true" />
             <element signature="e#1600#1601#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arrays/bubbleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-76">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arrays/duplicateNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/string/reverseStringPreservingSpaces.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="2" column="44" lean-forward="false" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>

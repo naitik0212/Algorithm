@@ -8,7 +8,6 @@ public class reverseStringPreservingSpaces {
 
         reverseStringPreservingSpace("Done And Gone");
     }
-
     private static void reverseStringPreservingSpace(String s){
         char[] a = s.toCharArray();
         char[] resultArray = new char[a.length];
@@ -19,7 +18,6 @@ public class reverseStringPreservingSpaces {
             }
         }
             int j = resultArray.length-1;
-
         for (char anA : a) {
             if (anA != ' ') {
 
