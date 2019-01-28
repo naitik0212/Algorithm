@@ -40,8 +40,10 @@ public class QueueUsingStacks {
     {
         myQueue q = new myQueue();
         q.enQ(1);
-        q.enQ(2);
+
         q.enQ(3);
+
+
 
         System.out.println(q.deQ());
         System.out.println(q.deQ());
