@@ -8,13 +8,13 @@ class Node {
 
 class BST {
 
-    public Node insert(Node node, int val){
-        if(node == null){
+    public Node insert(Node node, int val) {
+        if (node == null) {
             return createNewNode(val);
         }
-        if(val < node.data) {
+        if (val < node.data) {
             node.left = insert(node.left, val);
-        }else{
+        } else {
             node.right = insert(node.right, val);
         }
         return node;
@@ -76,7 +76,38 @@ class BST {
     }
 
 
+    public void preorder(Node node) {
+        if (node == null)
+            return;
+        System.out.print(node.data + " ");
+        preorder(node.left);
+        preorder(node.right);
+    }
 
+    public void postOrder(Node node) {
+        if (node == null)
+            return;
+        postOrder(node.left);
+        postOrder(node.right);
+        System.out.print(node.data + " ");
+
+    }
+
+
+    public Boolean isNode(Node node, int i) {
+        if (node == null) {
+            return false;
+        }
+        System.out.println(node.data + "   " + i);
+            if (node.data == i) {
+                System.out.println("asdas");
+                return true;
+            } else if (node.data > i) {
+                return isNode(node.left, i);
+            } else {
+                return isNode(node.right, i);
+            }
+    }
 }
 
 public class BinarySearchTree {
@@ -99,8 +130,23 @@ public class BinarySearchTree {
         root = tree.delete(root, 13);
         root = tree.delete(root, 8);
 
-
+        System.out.print("InOrder: ");
+        System.out.println();
         tree.inorder(root);
+        System.out.println();
+
+        System.out.println("Preorder: ");
+        tree.preorder(root);
+        System.out.println();
+
+        System.out.println("PostOrder: ");
+        tree.postOrder(root);
+        System.out.println();
+
+        Boolean flag = false;
+        flag = tree.isNode(root, 3);
+        System.out.println(flag);
+
     }
 
 }
