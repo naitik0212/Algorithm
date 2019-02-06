@@ -1,4 +1,6 @@
 package DesignPatterns.Creational.FactoryDesignPattern;
 
-public class FactoryMain {
+public interface OS {
+     void spec();
+
 }
