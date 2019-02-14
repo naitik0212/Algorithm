@@ -1,3 +1,5 @@
+package importants;
+
 import java.util.*;
 
 class wayfair {

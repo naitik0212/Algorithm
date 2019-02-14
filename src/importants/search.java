@@ -1,4 +1,4 @@
-package arrays;
+package importants;
 
 public class search {
     private static int sorted_search(int[] elements, int target) {
