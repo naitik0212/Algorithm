@@ -7,7 +7,7 @@ import java.util.List;
 
 public class BasicOperationsArrayList {
     public static void main(String args[]) {
-        ArrayList<String> a = new ArrayList<String>();
+        ArrayList<String> a = new ArrayList<>();
         //add elements to the ArrayList
         a.add("Java");
         a.add("HTML");

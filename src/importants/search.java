@@ -1,4 +1,4 @@
-package arrays;
+package importants;
 
 public class search {
     private static int sorted_search(int[] elements, int target) {
@@ -27,9 +27,23 @@ public class search {
     }
 
     public static void main(String args[]) {
-        int a[] = {1,2,3,4,5};
-        checker(a, 9);
-//        System.out.println(sorted_search(a,3));
+        int a[] = {1,2,6,8,15,20};
+
+        System.out.println(sorted_search(a,6));
+        checker(a, 1);
+
+        System.out.println(sorted_search(a,6));
+        checker(a, 6);
+
+        System.out.println(sorted_search(a,8));
+        checker(a, 8);
+
+        System.out.println(sorted_search(a,20));
+        checker(a, 20);
+
+        System.out.println(sorted_search(a,22));
+        checker(a, 22);
+
     }
 
     private static void checker(int[] elements, int target) {
