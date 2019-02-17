@@ -12,14 +12,17 @@ package importants.Alergy;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Map;
 
 public class Allergy {
     // PatientId
     // Name
     // Allergy Name (Unique)
 
-    public HashMap<String, String> symptoms = new HashMap<>();
-    public HashMap<String, String> reactions = new HashMap<>();
+    private Map<String, String> symptoms = new HashMap<>();
+    private Map<String, String> reactions = new HashMap<>();
+    private String severity;
+
 
     public String getAllergyName() {
         return allergyName;
@@ -39,8 +42,6 @@ public class Allergy {
         this.severity = severity;
     }
 
-    private String severity;
-
 
     public String getSymptoms(String allergyName) {
         StringBuilder sb = new StringBuilder();
@@ -57,7 +58,6 @@ public class Allergy {
         }
         return sb.toString();
     }
-
 
     public void setSymptoms(String allergyName, String sym){
         StringBuilder sb = new StringBuilder();
