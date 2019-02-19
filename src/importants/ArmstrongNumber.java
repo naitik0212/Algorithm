@@ -38,7 +38,7 @@ public class ArmstrongNumber {
 
         while(temp > 0) {
             int x = temp%10;
-            sum = sum + power(x,n);
+            sum = sum + Math.pow(x,n);
             temp = temp/10;
         }
         return sum == a;

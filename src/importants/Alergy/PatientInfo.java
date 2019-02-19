@@ -25,10 +25,7 @@ public class PatientInfo {
         allergyList.add(al);
         allergyList.add(al1);
         pt.setAllergies(allergyList);
-
         System.out.println(patient(pt));
-
-
 
     }
 
