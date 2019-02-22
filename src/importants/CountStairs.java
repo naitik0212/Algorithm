@@ -1,6 +1,6 @@
 package importants;
 
-// Java program to count number of ways to reach n't stair when
+// Java program to nodeCount number of ways to reach n't stair when
 // a person can climb 1, 2, ..m stairs at a time
 
 class CountStairs
