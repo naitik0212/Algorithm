@@ -1,9 +1,6 @@
 package importants;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.LinkedHashSet;
-import java.util.Set;
+import java.util.*;
 
 public class MaxSubStringWithKDistinctChar
 {
@@ -47,3 +44,61 @@ public class MaxSubStringWithKDistinctChar
                 + ob.countkDist(ch, k));
     }
 }
+
+
+// you can also use imports, for example:
+
+// you can write to stdout for debugging purposes, e.g.
+// System.out.println("this is a debug message");
+
+class Solution {
+
+    Map<Integer, Integer> timeStamp = new HashMap<>();
+
+    public String[] solution(String[] A, int Y) {
+        Map<String, Map<Integer, Integer>> clientMin = new HashMap<>();
+        // map of current min and count for that client
+
+        // System.out.println(Y);
+        for(String s: A) {
+            String a[] = s.split(" ");
+            int currentMin = Integer.parseInt(a[1])/ 60;
+            String client = a[0];
+            Map<Integer, Integer> temp = new HashMap<>();
+
+            if(clientMin.containsKey(client)) {
+                if(temp.containsKey(currentMin)) {
+                    temp.put(currentMin, temp.get(currentMin) + 1);
+                }
+            } else{
+                temp.put(currentMin, 1);
+            }
+            clientMin.put(client, temp);
+
+
+
+            if(timeStamp.containsKey(currentMin)){
+                timeStamp.put(currentMin, timeStamp.get(currentMin) + 1);
+            }else{
+                timeStamp.put(currentMin, 1);
+            }
+        }
+
+
+        System.out.println(timeStamp);
+
+        return A;
+    }
+}
+
+// class pair {
+//     private Map<String, Integer> clientRequest = new HashMap<>();
+//     private int timeStamp;
+
+//     pair(Map<String, Integer> clientRequest, int timeStamp){
+//         this.clientRequest = clientRequest;
+//     }
+// }
+
+// global - how many request in each minute.
+//2 hashmaps: global for minutes and local timestamp
