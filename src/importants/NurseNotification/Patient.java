@@ -1,11 +1,26 @@
 package importants.NurseNotification;
 
+import importants.Medication.Medication;
+
 import java.util.List;
 
 public class Patient {
     private String name;
     private String disease;
     private List<Medicine> medicineList;
+    private Medication medication;
+
+
+    public Patient() { }
+
+    public Medication getMedication() {
+        return medication;
+    }
+
+    public void setMedication(Medication medication) {
+        this.medication = medication;
+    }
+
 
 
 

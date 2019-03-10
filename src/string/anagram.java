@@ -1,6 +1,6 @@
 package string;
 
-//ctci check permutations.
+// ctci check permutations.
 
 public class anagram {
     private static boolean isAnagram(String s, String t) {
