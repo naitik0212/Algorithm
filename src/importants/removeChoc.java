@@ -4,7 +4,7 @@ public class removeChoc {
     static int arr[] = {1, 3};
 
     public static void main(String args[]) {
-        System.out.println(removeCho(4));
+        System.out.println(removeCho(1000));
 
     }
 
@@ -22,8 +22,6 @@ public class removeChoc {
 
         }
     }
-
-
 }
 
 class Gfg
