@@ -21,7 +21,7 @@ public class Allergy {
 
     private Map<String, String> symptoms = new HashMap<>();
     private Map<String, String> reactions = new HashMap<>();
-    private String severity;
+    private Severity severity;
 
 
     public String getAllergyName() {
@@ -34,11 +34,11 @@ public class Allergy {
 
     public String allergyName;
 
-    public String getSeverity() {
+    public Severity getSeverity() {
         return severity;
     }
 
-    public void setSeverity(String severity) {
+    public void setSeverity(Severity severity) {
         this.severity = severity;
     }
 
@@ -84,3 +84,4 @@ public class Allergy {
         }
     }
 }
+

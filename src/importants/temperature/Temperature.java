@@ -8,10 +8,21 @@ import java.util.Scanner;
 public class Temperature {
 
     private double defaultTemp=0.0;
+    private Location location;
+
+
+    public Location getLocation() {
+        return location;
+    }
+
+    public void setLocation(Location location) {
+        this.location = location;
+    }
+
     DecimalFormat numberFormat = new DecimalFormat("#.00");
 
 
-    public double Temperature(double defaultTemp){
+    public double Temperature(double defaultTemp) {
         return this.defaultTemp=defaultTemp;
     }
 
@@ -44,10 +55,15 @@ public class Temperature {
             System.out.println("1.Convert Celcius to Fareiheit");
             System.out.println("2.Convert Fareiheit to Celcius");
             System.out.println("3.Update default temperature");
-            System.out.println("4.Exit");
+            System.out.println("4.Update default Location");
+            System.out.println("5.Exit");
 
             Scanner sc = new Scanner(System.in);
-            int input = sc.nextInt();
+            int input =  0;
+            if(sc.hasNextInt()) {
+                input = sc.nextInt();
+            }
+
             switch (input) {
                 case 1: System.out.println("Enter temperature in Celcius to convert into Farenheit");
                     double celcius = sc.nextDouble();
@@ -60,13 +76,30 @@ public class Temperature {
                 case 3: System.out.println("Enter temperature in celcius");
                     System.out.println("Default Temperature Set to:" + temp.setDefaultTemp(sc.nextDouble())+ " C");
                     break;
-                case 4: System.out.println("Exiting system");
+                case 4: System.out.println("Select Location");
+                    System.out.println("1. Armpit");
+                    System.out.println("2.Ear");
+                    System.out.println("3.Mouth");
+                    int location = sc.nextInt();
+                    Location c1 = Location.Armpit;
+                    switch (location) {
+                        case 1:  c1 = Location.Armpit;
+                        break;
+                        case 2: c1 = Location.Ear;
+                        break;
+                        case 3: c1 = Location.Mouth;
+                        break;
+                        default: System.out.println("Invalid.. Assuming Armpit");
+                    }
+                    System.out.println("Location of measurement: " + c1);
+                    break;
+                case 5: System.out.println("Exiting system");
                     flag = false;
                     break;
-
-                default:
+                case 0:
                     System.out.println("Invalid input.");;
             }
         }
     }
 }
+

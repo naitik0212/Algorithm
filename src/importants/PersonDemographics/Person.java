@@ -3,7 +3,7 @@ package importants.PersonDemographics;
 public class Person {
 
     private String personName;
-    private String gender;
+    private String gender = "Undefined";
     private int age;
 
 

@@ -2,8 +2,8 @@ package string;
 
 public class Knuth_Morris_Pratt {
     public static void main(String args[]){
-        String str = "abcxabcdabcdabcy";
-        String subString = "bcdabcdabc";
+        String str = "mississippi";
+        String subString = "issip";
         Knuth_Morris_Pratt ss = new Knuth_Morris_Pratt();
         boolean result = ss.KMP(str.toCharArray(), subString.toCharArray());
         System.out.println(result);
@@ -27,6 +27,8 @@ public class Knuth_Morris_Pratt {
             }
         }
         if(j == pattern.length){
+            System.out.println(i-j);
+
             return true;
         }
         return false;
@@ -35,8 +37,8 @@ public class Knuth_Morris_Pratt {
     private int[] computeTemporaryArray(char[] pattern) {
         int [] temp = new int[pattern.length];
         int index = 0;
-        for(int i =0; i< pattern.length;){
-            if(pattern[index] == temp[i]){
+        for(int i = 1; i< pattern.length;){
+            if(pattern[index] == pattern[i]){
                 temp[i] = index + 1;
                 index++;
                 i++;

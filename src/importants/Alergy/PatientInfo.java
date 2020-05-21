@@ -12,14 +12,14 @@ public class PatientInfo {
 
         Allergy al = new Allergy();
         al.setAllergyName("rashes");
-        al.setSeverity("medium");
+        al.setSeverity(Severity.HIGH);
         al.setSymptoms("rashes", "Fever");
         al.setReactions("rashes", "Itching, burns");
 
 
         Allergy al1 = new Allergy();
         al1.setAllergyName("sweling");
-        al1.setSeverity("high");
+        al1.setSeverity(Severity.MEDIUM);
 
         List<Allergy> allergyList = new ArrayList<>();
         allergyList.add(al);
