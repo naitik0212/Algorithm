@@ -2,9 +2,18 @@ package string;/* https://www.journaldev.com/526/java-program-to-find-all-permut
 import java.util.HashSet;
 import java.util.Set;
 
+
+
 public class permutationString {
+
+    private static void permutation(String perm, String word) {
+        if (word.isEmpty()) { System.out.println(perm + word);
+        } else {
+            for (int i = 0; i < word.length(); i++) {
+                permutation(perm + word.charAt(i), word.substring(0, i) + word.substring(i + 1, word.length())); } } }
+
     public static Set<String> permutationFinder(String str) {
-        Set<String> perm = new HashSet<String>();
+        Set<String> perm = new HashSet<>();
         //Handling error scenarios
         if (str == null) {
             return null;
@@ -34,7 +43,8 @@ public class permutationString {
         String s1 = "ABCDE";
         String s2 = "ABCD";
         System.out.println("\nPermutations for " + s + " are: \n" + permutationFinder(s));
-        System.out.println("\nPermutations for " + s1 + " are: \n" + permutationFinder(s1));
-        System.out.println("\nPermutations for " + s2 + " are: \n" + permutationFinder(s2));
+        permutation("", "AAC");
+//        System.out.println("\nPermutations for " + s1 + " are: \n" + permutationFinder(s1));
+//        System.out.println("\nPermutations for " + s2 + " are: \n" + permutationFinder(s2));
     }
 }
